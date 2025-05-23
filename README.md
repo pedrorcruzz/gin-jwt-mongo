@@ -1,5 +1,10 @@
 # Gin + JWT + MongoDB Starter Project
 
+## 📌 Status
+
+🚧 In development
+
+
 This project was created to test and explore the main features of the [Gin](https://gin-gonic.com/) web framework in combination with [JWT](https://jwt.io/) for authentication and [MongoDB](https://www.mongodb.com/) as the database.
 
 ## 🔧 Technologies Used
