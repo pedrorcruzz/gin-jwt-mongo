@@ -24,3 +24,17 @@ This project follows the **Layered Architecture** pattern, separating concerns i
 - Protected routes using middleware
 - Integration with MongoDB to persist user data
 - Clean and modular project structure for scalability
+
+
+
+## Run Project
+
+### Run
+```
+go run ./cmd/api
+```
+### Build
+
+```
+go build ./cmd/api
+```
