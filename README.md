@@ -9,7 +9,7 @@ This project was created to test and explore the main features of the [Gin](http
 
 ## 🧱 Architecture
 
-This project follows the **Layered Architecture** pattern, separating concerns into different layers such as `controllers`, `services`, `repositories`, `entities`, and `utils`. This structure improves code organization, maintainability, and scalability as the project grows.
+This project follows the **Layered Architecture** pattern, separating concerns into different layers such as `handler`, `service`, `repository`, `entities`, and `utils`. This structure improves code organization, maintainability, and scalability as the project grows.
 
 ## 🔧 Technologies Used
 
