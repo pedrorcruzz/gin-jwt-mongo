@@ -31,3 +31,11 @@ func NewMongoRepositoryContext(uri, dbName, collectionName string) (*MongoReposi
 		client:     client,
 	}, nil
 }
+
+func (r *MongoRepositoryContext) Create(contextServer context.Context, document any) error {
+	_, err := r.Collection.InsertOne(contextServer, document)
+	if err != nil {
+		return fmt.Errorf("error inserting document: %v", err)
+	}
+	return nil
+}
